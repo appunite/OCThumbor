@@ -14,6 +14,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'OCThumbor'
-
+  
+  s.frameworks = 'CoreGraphics'
+  
   s.dependency 'CocoaSecurity', '~> 1.2'
 end
